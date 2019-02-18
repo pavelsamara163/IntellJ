@@ -16,7 +16,7 @@ public class GameScreen implements Screen {
 	public void show() {
 		ballTexture = new Texture("ball.png");
 		spriteBatch = new SpriteBatch();
-		ball = new Ball(ballTexture,10,10,100,100);
+		ball = new Ball(ballTexture,30,10,100,100);
 
 	}
 
